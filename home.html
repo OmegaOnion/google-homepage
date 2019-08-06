@@ -7,32 +7,33 @@
 <!--top bar-->
 <div id="header">
     <!--Top left-->
-    <div>
+    <div style = "float:left;">
         <a href = "">About</a>
         <a href = "">Store</a>
     </div>
     <!--Top right-->
-    <div>
+    <div style = "float:right;">
         <a href = "">Gmail</a>
         <a href = "">Images</a>
-        (googles services)
-        <a href = "">Sign in</a>
+        <button>#</button>
+        <button id = "signIn">Sign in</button>
     </div>
 </div>
+<br/>
 <!--Main section-->
-<div>
-    Logo
+<div id="main">
+    <img id ="logo" src = "images/logo.png">
     <!--Search form--> 
     <form>
         <!--Search bar-->
-        <div>
+        <div id="searchContainer">
             <input id="search" type="text">
         </div>
 
         <!--Search buttons-->
-        <div>
-            <button>Google search</button>
-            <button>I'm feeling lucky</button>
+        <div id = "center">
+            <button id ="searchButton">Google search</button>
+            <button id = "searchButton">I'm feeling lucky</button>
         </div>
 
     </form>
@@ -41,20 +42,25 @@
 
 <!--footer-->
 <div id="footer">
-    Country
+
+    <div id = "country">
+        Country Name
+    </div>
     <!--Bottom left-->
-    <div>
+    <span id = "fbl">
         <a href = "">Advertising</a>
         <a href = "">Business</a>
         <a href = "">How search works</a>
-    </div>
+    </span>
    
     <!--Bottom right-->
-    <div>
+    <span id = "fbr">
         <a href = "">Privacy</a>
         <a href = "">Terms</a>
         <a href = "">Settings</a>
-    </div>
+    </span>
+
+
 </div>
 </body>
 </html>
